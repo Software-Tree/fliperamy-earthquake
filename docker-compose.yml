@@ -2,7 +2,7 @@ version: '3.3'
 services:
   web:
     build:
-      context: docker-compose-skeleton-apache
+      context: ./
       dockerfile: Dockerfile
     container_name: php73
     depends_on:
